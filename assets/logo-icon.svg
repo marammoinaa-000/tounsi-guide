@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <!-- Background -->
+  <circle cx="90" cy="90" r="85" fill="#C8102E"/>
+
+  <!-- White decorative ring -->
+  <circle cx="90" cy="90" r="70" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+
+  <!-- Crescent Moon and Star -->
+  <g transform="translate(90, 75)">
+    <!-- Crescent -->
+    <path d="M -25 0
+             A 35 35 0 1 1 35 0
+             A 28 28 0 1 0 -25 0"
+          fill="#FFFFFF"/>
+
+    <!-- Star -->
+    <polygon
+      points="20,-12 24,-2 35,-2 26,5 29,16 20,9 11,16 14,5 5,-2 16,-2"
+      fill="#E8B84B"
+      transform="translate(8, -5) scale(0.7)"/>
+  </g>
+
+  <!-- Bottom decoration -->
+  <rect x="35" y="130" width="15" height="15" rx="3" fill="#FFFFFF"/>
+  <rect x="55" y="130" width="15" height="15" rx="3" fill="#E8B84B"/>
+  <rect x="75" y="130" width="15" height="15" rx="3" fill="#FFFFFF"/>
+  <rect x="95" y="130" width="15" height="15" rx="3" fill="#E8B84B"/>
+  <rect x="115" y="130" width="15" height="15" rx="3" fill="#FFFFFF"/>
+  <rect x="135" y="130" width="15" height="15" rx="3" fill="#E8B84B"/>
+
+  <!-- Arabic Text -->
+  <text x="90" y="115"
+        font-family="Arial, sans-serif"
+        font-size="22"
+        font-weight="bold"
+        text-anchor="middle"
+        fill="#FFFFFF">تونسي</text>
+
+  <!-- English Text -->
+  <text x="90" y="165"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        text-anchor="middle"
+        letter-spacing="3"
+        fill="#FFFFFF">GUIDE</text>
+</svg>

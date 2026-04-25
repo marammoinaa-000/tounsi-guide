@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Background Circle -->
+  <circle cx="512" cy="512" r="480" fill="#C8102E"/>
+
+  <!-- Inner White Ring -->
+  <circle cx="512" cy="512" r="420" fill="none" stroke="#FFFFFF" stroke-width="20"/>
+
+  <!-- Decorative Arabesque Pattern - Top -->
+  <g fill="none" stroke="#E8B84B" stroke-width="4">
+    <!-- Top decorative arc -->
+    <path d="M 256 180 Q 512 80 768 180" stroke-dasharray="0"/>
+    <path d="M 286 200 Q 512 120 738 200"/>
+    <path d="M 316 220 Q 512 160 708 220"/>
+
+    <!-- Corner ornaments - Top Left -->
+    <path d="M 120 120 L 180 120 L 180 180"/>
+    <circle cx="160" cy="160" r="15" fill="#E8B84B"/>
+
+    <!-- Corner ornaments - Top Right -->
+    <path d="M 904 120 L 844 120 L 844 180"/>
+    <circle cx="864" cy="160" r="15" fill="#E8B84B"/>
+  </g>
+
+  <!-- Crescent Moon and Star - Main Symbol -->
+  <g transform="translate(512, 420)">
+    <!-- Crescent Moon -->
+    <path d="M -60 0
+             A 80 80 0 1 1 80 0
+             A 60 60 0 1 0 -60 0"
+          fill="#FFFFFF"/>
+
+    <!-- Star (5-pointed) -->
+    <polygon
+      points="45,-25 52,-5 73,-5 56,8 63,28 45,15 27,28 34,8 17,-5 38,-5"
+      fill="#E8B84B"
+      transform="translate(15, -15) scale(0.9)"/>
+  </g>
+
+  <!-- Zellige Pattern - Bottom Decorative Border -->
+  <g fill="#FFFFFF">
+    <!-- Bottom geometric pattern -->
+    <rect x="200" y="750" width="40" height="40" rx="5"/>
+    <rect x="260" y="750" width="40" height="40" rx="5" fill="#E8B84B"/>
+    <rect x="320" y="750" width="40" height="40" rx="5"/>
+    <rect x="380" y="750" width="40" height="40" rx="5" fill="#E8B84B"/>
+    <rect x="440" y="750" width="40" height="40" rx="5"/>
+    <rect x="500" y="750" width="40" height="40" rx="5" fill="#E8B84B"/>
+    <rect x="560" y="750" width="40" height="40" rx="5"/>
+    <rect x="620" y="750" width="40" height="40" rx="5" fill="#E8B84B"/>
+    <rect x="680" y="750" width="40" height="40" rx="5"/>
+    <rect x="740" y="750" width="40" height="40" rx="5" fill="#E8B84B"/>
+
+    <!-- Connecting diamonds -->
+    <polygon points="240,780 260,800 240,820 220,800" fill="#E8B84B"/>
+    <polygon points="360,780 380,800 360,820 340,800"/>
+    <polygon points="480,780 500,800 480,820 460,800" fill="#E8B84B"/>
+    <polygon points="600,780 620,800 600,820 580,800"/>
+    <polygon points="720,780 740,800 720,820 700,800" fill="#E8B84B"/>
+  </g>
+
+  <!-- Arabic Text "تونسي" (Tounsi) -->
+  <g fill="#FFFFFF">
+    <!-- Simplified Arabic calligraphic form -->
+    <text x="512" y="650"
+          font-family="Arial, sans-serif"
+          font-size="80"
+          font-weight="bold"
+          text-anchor="middle"
+          fill="#FFFFFF">تونسي</text>
+  </g>
+
+  <!-- Latin Text "Guide" -->
+  <g fill="#FFFFFF">
+    <text x="512" y="900"
+          font-family="Arial, sans-serif"
+          font-size="72"
+          font-weight="bold"
+          text-anchor="middle"
+          letter-spacing="8"
+          fill="#FFFFFF">GUIDE</text>
+  </g>
+
+  <!-- Decorative dots -->
+  <circle cx="350" cy="560" r="6" fill="#E8B84B"/>
+  <circle cx="370" cy="580" r="4" fill="#E8B84B"/>
+  <circle cx="674" cy="560" r="6" fill="#E8B84B"/>
+  <circle cx="654" cy="580" r="4" fill="#E8B84B"/>
+
+  <!-- Bottom corner ornaments -->
+  <circle cx="160" cy="864" r="15" fill="#E8B84B"/>
+  <circle cx="864" cy="864" r="15" fill="#E8B84B"/>
+</svg>
